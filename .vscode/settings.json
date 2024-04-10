@@ -12,5 +12,24 @@
     ],
     "python.analysis.extraPaths": [
         ".vscode/Pico-W-Stub"
-    ]
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#353e54",
+        "activityBar.background": "#353e54",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#9c6373",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#353e54",
+        "statusBar.background": "#212735",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#353e54",
+        "statusBarItem.remoteBackground": "#212735",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#212735",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#21273599",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    }
 }
