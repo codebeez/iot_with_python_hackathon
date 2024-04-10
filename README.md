@@ -33,6 +33,6 @@ During this Hackathon the following exercises are prepared. Of course you are fr
 - Exercise 3 - Sensors (dht11)
 - Exercise 4 - Oled + sensor
 - Exercise 5 - IoT
-- Exercise 6 - Home Assistent
+- Exercise 6 - Home Assistant
 
 Good luck and have fun!
