@@ -1,16 +1,8 @@
-# Complete project details at https://RandomNerdTutorials.com/raspberry-pi-pico-ssd1306-oled-micropython/
+from machine import Pin, I2C
+from sh1106 import SH1106_I2C
 
-from machine import Pin, SoftI2C
-import ssd1306
-
-# You can choose any other combination of I2C pins
-i2c = SoftI2C(scl=Pin(1), sda=Pin(0))
-
-oled_width = 128
-oled_height = 64
-oled = ssd1306.SSD1306_I2C(oled_width, oled_height, i2c)
-
-oled.text("Hallo, Sjors! :)", 0, 10)
-oled.text("Hallo, Millie!", 0, 20)
-
+i2c = I2C(0, scl=Pin(17), sda=Pin(16), freq=400000)
+oled = SH1106_I2C(128, 64, i2c, None, addr=0x3C)
+oled.sleep(False)
+oled.text("Test", 0, 0)
 oled.show()
